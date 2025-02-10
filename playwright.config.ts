@@ -28,6 +28,7 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('/')`. */
     trace: 'on-first-retry',
     baseURL: 'https://loginxp.vercel.app',
+    video: 'on'
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
   },
